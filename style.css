@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 900px;
+    background: rgb(157, 230, 230);
+}
+
+.players{
+    display: flex;
+    justify-content: space-around;    
+}
+
+.total{
+
+    display: none;
+    justify-content: space-around; 
+}
+
+.whose-move h2, .whose-move div {
+    margin: 0 auto;
+}
+
+.work-scope{
+    display: none;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+.logs{
+    border: 2px solid black;
+    width: 250px;
+}
+
+
+
+.btn-container{
+    margin-left: 20px;
+    max-width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-container button {
+    background: rgb(237, 130, 130);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.kush{
+    background: rgb(236, 236, 159) !important;
+}
+
+.active-btn{
+    background: rgb(183, 240, 149) !important;
+}
+
+
+.arrow{
+    display: none;
+    width: 35px;
+    height: 35px;
+    font-size: 30px;
+}
+
+
+.logs li{
+    list-style: none;
+}
+
+.lll{
+    display: flex;
+    flex-wrap: wrap;
+}

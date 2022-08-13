@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="players">
+            <div class="choose-player1">
+                <p>Please select a player</p>
+                <select class="select1" >
+                    <option value="leo">leo</option>
+                    <option value="bucha">bucha</option>
+                    <option value="borch">borch</option>
+                    <option value="volo">volo</option>
+                    <option value="andrea">andrea</option>
+                    <option value="yandex">yandex</option>
+                </select>    
+                <button class="btn-player1" onclick="select1_ok()" >Choose</button>            
+            </div>
+
+            <span class="whose-move">
+                <div class="ddd">
+                    <h2 class="hod">Кто сейчас ходит</h2>
+                    <button class="left-player" onclick="leftPlayer()" >left-player</button>
+                    <button class="random">random</button>
+                    <button class="right-player" onclick="rightPlayer()" >right-player</button>                    
+                </div>
+                <div class="arrow">&#8592;</div>
+            </span>            
+            <div class="choose-player2">
+                <p>Please select a player</p>
+                <select class="select2" >
+                    <option value="leo">leo</option>
+                    <option value="bucha">bucha</option>
+                    <option value="borch">borch</option>
+                    <option value="volo">volo</option>
+                    <option value="andrea">andrea</option>
+                    <option value="yandex">yandex</option>
+                </select>    
+                <button class="btn-player2" onclick="select2_ok()">Choose</button>            
+            </div>
+        </div>
+        <div class="total">
+            <h2 class="score1">Total: 0</h2>
+
+            <h2 class="score2" >Total: 0</h2>
+        </div>
+        <div class="work-scope">
+            <div class="logs-1 logs">
+                <ul class="lll" >
+                    
+                </ul>
+<!--                 <select name="" id="">
+                    <option value="">bucha</option>
+                    <option value="">leo</option>
+                    <option value="">borch</option>
+                    <option value="">volo</option>
+                    <option value="">andrea</option>
+                    <option value="">yandex</option>
+                </select> -->
+            </div>
+            <div class="btn-container">
+                <button class="btn-1">1</button>
+                <button class="btn-2">2</button>
+                <button class="btn-3">3</button>
+                <button class="btn-4">4</button>
+                <button class="btn-5">5</button>
+                <button class="btn-6">6</button>
+                <button class="kush">kush</button>
+                <button class="skip">skip</button>
+                <button class="ok">ok</button>
+            </div>
+            <div class="logs-2 logs">
+                <ul class="lll" ></ul>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
